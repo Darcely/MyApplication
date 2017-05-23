@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5500"
+    tools:context="com.example.myapplication.MainLogin">
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="142dp"
+        android:layout_height="51dp"
+        android:background="#7200aa"
+        android:text="Log in"
+        tools:layout_editor_absoluteY="176dp"
+        android:layout_marginRight="76dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonregistration"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:background="#7200aa"
+        android:text="REGISTRATION"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="261dp" />
+</android.support.constraint.ConstraintLayout>
